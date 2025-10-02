@@ -8,7 +8,7 @@ date: 2024-10-08
 venue: "Sensors"
 slidesurl: "http://onephysicist.github.io/files/paper2-sensors-24-06472.pdf"    # 若有幻灯片可在此填
 paperurl: "https://www.mdpi.com/1424-8220/24/19/6472"
-citation: "C. Chen, I. Pavlov, A. Padokhin, Y. Yasyukevich, V. Demyanov, E. Danilchuk & A. Vesnin. (2024). “Galileo and BeiDou AltBOC Signals and Their Perspectives for Ionospheric TEC Studies.” *Sensors*, 24(19):6472. DOI:10.3390/s24196472"
+citation: 'C. Chen, I. Pavlov, A. Padokhin, Y. Yasyukevich, V. Demyanov, E. Danilchuk & A. Vesnin. (2024). &quot; Galileo and BeiDou AltBOC Signals and Their Perspectives for Ionospheric TEC Studies.&quot; <i>Sensors<i>, 24(19):6472. DOI:10.3390/s24196472'
 ---
 
 ## Abstract

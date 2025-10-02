@@ -5,10 +5,10 @@ category: manuscripts
 permalink: /publication/2025-01-04-gec-klobuchar-bdgim-nequickg
 excerpt: "This paper analyzes global electron content (GEC) estimation using Klobuchar, BDGIM, and NeQuickG models, comparing them to CODG observational data."
 date: 2025-01-04
-venue: "Izvestiya, Atmospheric and Oceanic Physics"
+venue: "Journal of Radio Electronics"
 slidesurl: "http://onephysicist.github.io/files/paper2-RU-GEC.pdf"       # 若你有幻灯片可以填入
 paperurl: "https://doi.org/10.30898/1684-1719.2025.1.4"
-citation: "C. Chen, A.M. Padokhin, A.K. Ivanov, I.A. Pavlov. (2025). “Features of Global Electron Content Representation in Operational Ionospheric Models of Klobuchar, BDGIM and NeQuickG.” *Izvestiya, Atmospheric and Oceanic Physics*, DOI:10.30898/1684-1719.2025.1.4"
+citation: 'C. Chen, A.M. Padokhin, A.K. Ivanov, I.A. Pavlov. (2025). &quot; Features of Global Electron Content Representation in Operational Ionospheric Models of Klobuchar, BDGIM and NeQuickG.&quot; <i>Journal of Radio Electronics<i>, DOI:10.30898/1684-1719.2025.1.4'
 ---
 
 ## Abstract

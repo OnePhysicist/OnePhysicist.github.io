@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Chuanfu Chen / PhD"
+title                    : "Physicist Chuanfu Chen"
 title_separator          : "-"
 name                     : &name "Chuanfu Chen"
 description              : &description "Chuanfu Chen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,9 +24,9 @@ repository               : "OnePhysicist/OnePhysicist.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Chuanfu Chen"
-  pronouns         : "Dr."
-  bio              : "Atmospheric and climate scientist, Ph.D. in Mathematical Physics from Moscow State University. Research focuses on ionospheric modeling, GNSS signal propagation, and space weather effects. Experienced in GNSS/remote sensing applications and interdisciplinary collaborations."
+  name             : "Dr. Chuanfu Chen"
+  pronouns         : "Ph.D. in Mathematical Physics"
+  bio              : "Atmospheric and climate scientist, Moscow State University. Research focuses on ionospheric modeling, GNSS signal propagation, and space weather effects. Experienced in GNSS/remote sensing applications and interdisciplinary collaborations."
   location         : "China & Russia"
   employer         : "Moscow State University"
   uri              : "https://en.wikipedia.org/wiki/Moscow_State_University"
@@ -34,12 +34,12 @@ author:
 
   # Academic websites
   academia         : "https://istina.msu.ru/workers/395656299/all/"
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "ChuanfuChen"
   googlescholar    : "https://scholar.google.com/citations?user=Cu65WpcAAAAJ&hl=en&oi=sra"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-9896-5841"
-  semantic         : # URL
+  semantic         : "https://www.semanticscholar.org"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Chuanfu+Chen+Moscow"
   researchgate     : "https://www.researchgate.net/profile/Chuanfu-Chen-3"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58292258000"
@@ -74,7 +74,7 @@ author:
   twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
-  wikipedia        : # Username
+  wikipedia        : "ChenChuanfu"
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username

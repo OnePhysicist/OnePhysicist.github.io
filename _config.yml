@@ -15,7 +15,7 @@ name                     : &name "Chuanfu Chen"
 description              : &description "Chuanfu Chen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://onephysicist.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "https://chenchuanfu.github.io/" # the subpath of your site, e.g. "/blog"
 repository               : "OnePhysicist/OnePhysicist.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -25,11 +25,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Chuanfu Chen"
-  pronouns         : # example: "she/her"
+  pronouns         : "Dr."
   bio              : "Atmospheric and climate scientist, Ph.D. in Mathematical Physics from Moscow State University. Research focuses on ionospheric modeling, GNSS signal propagation, and space weather effects. Experienced in GNSS/remote sensing applications and interdisciplinary collaborations."
   location         : "China & Russia"
   employer         : "Moscow State University"
-  uri              : # URL
+  uri              : "https://en.wikipedia.org/wiki/Moscow_State_University"
   email            : "chuanfu.chen@physist.msu.ru"
 
   # Academic websites

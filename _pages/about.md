@@ -1,60 +1,56 @@
 ---
 permalink: /
-title: "Major academic achievements"
+title: "Major Academic Achievements"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-**主要学术成绩**
+## 研究成果
 
+**陈川福 硕士、博士均毕业于莫斯科国立大学**（Lomonosov MSU），**俄罗斯排名第一、长期位列 QS 全球前百，汇聚 13 位诺贝尔奖得主**.
 
+陈川福 围绕“**微波—电离层跨介质传递**” 持续开展研究，逐步构建起一套涵盖“电离层动态表征—电离层参量精确测量—微波信号穿越电离层效应评估”的系统性分析及理论方法，取得了以下主要研究成果：
 
-取得研究成果的创新性、科学价值及本人贡献等
+（1）**构建电离层复杂动态演变机理与表征方法**：围绕电离层结构在时间与空间上的多尺度变化，突破了仅以局地总电子含量（Total Electron Content，TEC）为单一指标的局限，在**陈川福及其导师 Padokhin 的俄罗斯团队**（如 Astafyeva 等2008**[**[1](#_ENREF_1)**]**）**首创**系统化使用的全球电子含量（Global Electron Content，GEC）基础上，引入其派生参量（经纬向梯度、闪烁/不规则性指标等），构建了**以统一量化标尺为核心的全球评测框架**。该框架能够在多典型时间尺度上系统刻画电离层演变：既揭示太阳活动驱动下的**27天自转**与**年/半年**周期成分，也量化**地磁暴等强扰动**对全球电子分布的响应。该成果**在理论上完善了电离层全球动力学的经验表征，为空间环境监测与空间天气预报提供了可操作的方法**。
 
+（2）**创建单频电离层动态演变特征参量精准测量方法**：针对单频接收机在电离层监测与导航应用中的精度瓶颈，**陈川福及其俄罗斯团队首次**创新性地提出并验证了一种基于单频交替二进制偏移载波（Alternative Binary Offset Carrier，AltBOC）信号的**垂直方向电子含量反演新方法**[[2](#_ENREF_2), [3](#_ENREF_3)]。该方法利用 AltBOC 信号的宽带频谱特性与强抗多径能力，**系统分析了其精准测量总电子含量TEC的潜力，使得单频导航接收机对地球电离层电子浓度的测定精度提高了一个数量级，获得了俄罗斯科技媒体《Scientific Russia》的报道**。
 
+（3）**提出电离层与微波相互作用的统一评测指标与计算准则**：为突破不同电离层模型缺乏统一评测体系、难以进行同域对比的长期问题，陈川福及其俄罗斯团队提出并建立了一套覆盖全球九大主流电离层模型的统一评估框架，构建了体制无关的指标体系。该体系可在同一坐标与评价标准下，对 Klobuchar 模型、Galileo 系统的 NeQuickG 模型、北斗系统的 BDGIM 模型、国际参考电离层（IRI）系列模型以及全球经验型总电子含量模型（GEMTEC）模型等进行同域对比与快速评估。**该成果为不同GNSS在全球范围内开展电离层误差建模和修正提供了可操作、可对比的标准化工具**。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 主要学术成绩
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+（1）已发表学术论文 10 篇，其中以第一作者身份发表 5 篇，合作论文 5 篇。受国际形势影响，**俄罗斯科研机构面临严厉制裁**，成果发表环境极为严峻，但仍在国际权威期刊上取得重要进展。相关论文自 2023 年以来共被引用 43 次，其中发表于《Sensors》的代表性论文单篇引用达 38 次。
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+（2）获得 1 项**国际学术会议奖励**，即 2020 年罗蒙诺索夫**国际青年学者学术会议物理类优秀报告奖**。
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+（3）**获得各类奖学金 6 项**，包括中国国家留学基金委员会“**俄乌白专业人才培养计划**”奖学金，以及**韩国船级社**国际奖学金等。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+（4）多次受邀参加国际重要学术会议。其中，受邀出席**国际太阳—地球物理科学委员会**系列学术会议 20 余次；在**俄罗斯科学院空间物理研究所**作专题报告6 次；在**俄罗斯科学院太阳—地球物理研究所**学术会议作报告 6 次；在罗蒙诺索夫国际青年学者学术会议作报告 4 次；在**俄罗斯科学院地磁学、电离层与电波传播研究所**学术会议作报告2 次；受邀出席**俄罗斯国立研究型Lobachevsky大学**举办的“Наука без границ（科学无国界）”**独联体成员国**青年科学家国际论坛1次。
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 学术评价及影响
 
-**Markdown generator**
+（1）**国际媒体报道**：**研究成果先后被俄罗斯两家顶级科技媒体《Scientific Russia》和《Naked Science》重点报道**。其中，《Scientific Russia》在刊文指出：“最新研究已经证实，欧洲伽利略导航系统和中国北斗系统中采用的交替二进制偏移载波（AltBOC）信号调制方式，**使得单频导航接收机对地球电离层电子浓度的测定精度提高了一个数量级**。由于电离层中带电粒子会显著影响卫星无线电系统的质量，**该成果不仅在科学观测中具有重要意义，而且为改进俄罗斯全球卫星导航系统（GLONASS）在电离层监测任务中的性能提供了可行途径。**”（来源：《Научная Россия》，Scientific Russia 官方门户网站，点击网址可直接访问：[Link](https://scientificrussia.ru/articles/odnocastotnye-navigacionnye-priemniki-smogli-v-10-raz-tocnee-opredelat-kolicestvo-elektronov-v-ionosfere)）。
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+（2）**学术传播与社会影响指标**：**相关论文获得带有分值的 Altmetric 徽章**，该徽章基于新闻媒体、政策文件、学术博客、社交平台等多源数据加权计算，是国际通行的“在线传播与社会关注度”量化指示，能在传统被引指标之外，反映成果在更广泛公共与决策场域的触达度与讨论度，作为与引用指标互补的证据。该论文**在相近学科主题与传播渠道集合中高于 96% 的论文**。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+（3）**苏联和俄罗斯自然科学院（RAEN）**Сергей Александрович Пулинец（**Sergey A. Pulinets**）**院士**，俄罗斯科学院空间研究所（ИКИ РАН）首席研究员、美国地球物理联盟（AGU）学术会议分会召集人、URSI/COSPAR 电离层国际参考模型（IRI）工作组正式成员，**对陈川福博士研究的创新性与实用性给予高度评价**，明确指出 BDGIM 的改进方向，**认为所提方法技术先进、路径清晰，研究成果“可直接用于高精度服务”**。（详见附件7，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/354f7410-3e26-11f0-9aba-005056b96f20) ）
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+（4）**苏联国家奖获得者** Крюковский Андрей Сергеевич（**Andrey S. Kryukovsky**）**院士**，美国数学学会（AMS）会员、俄罗斯科学院科学委员会主席团成员、俄罗斯新大学信息系统与计算机技术系教授、院长。其在对外公开的官方评审意见中对陈川福博士工作予以**高度肯定**，认为论文在“模型评估＋信号体制物理”两条主线取得系统性成果：一是证明 BDGIM 对 GEC 27 日变率存在显著低估；二是给出 NeQuickG 与 CODG 的可用回归关系，实现稳定 GEC 估计；三是利用 AltBOC 显著降低斜向 TEC 估计噪声；四是提出“绝对垂直 TEC”单站估计新法。**其评价指出，上述结果新颖且可信，论证与实验对应紧密，具有明确的推广应用价值**。（详见附件8，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/1abac28a-3e26-11f0-9aba-005056b96f20)）
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+（5）**俄罗斯科学院奖章获得者** Юрий Владимирович Ясюкевич（**Yury V. Yasyukevich**），西伯利亚分院太阳—地球物理研究所（ИCЗФ СО РАН）副所长、数学物理专业教授、首席研究员。**在其对外公开的官方评审意见中，他对陈川福博士的工作给予高度评价，认为将 AltBOC 应用于单频 TEC 测量属于“极其重要”的突破**：在不依赖双频的条件下即可获得与科研级结果相当的 TEC；同时，陈川福博士提出的“单站绝对 TEC”方法理论体系严谨、流程可复现。此外，**论文还完成对 GLONASS 相关模型的实证性校核**，相关成果发表于 Q1 期刊。（详见附件9，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/90756850-3718-11f0-9fa8-005056b96f20)）
+
+（6）Максим Владимирович Клименко（**Maxim V. Klimenko**）——**俄罗斯科学院**普希科夫地磁电离层与无线电波传播研究所（ИЗМИРАН）加里宁格勒分部主任；数学物理博士、**教授**。**在其对外公开的官方评审意见中，高度评价陈川福博士工作兼具“科学与工程双重价值”**：提出的 GEC“快速估计” 方法在 CODG 参照下均方根误差 ≤ 0.02 GECu；AltBOC 单频组合在噪声水平上已可媲美双频相位法；所提出的 “绝对垂直 TEC”算法在 ≥ 95% 的情形下与双频结果一致。同时，作者基于大样本数据证实 BDGIM 对 27 日变率存在低估并提出明确的改进路径。**上述成果为单频 GNSS在空间天气与电离层业务化监测中的应用开辟了新通道。**（详见附件10，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/066d4192-3ba9-11f0-82c7-005056b96f20)）
+
+（7）Илья Александрович Ряховский（**Ilya A. Ryakhovsky**）——**俄罗斯科学院**地圈动力学研究所（ИДГ РАН）“岩石圈—电离层耦合”**实验室主任**；数学物理博士、**教授**。在其对外公开的官方评审意见中，高度评价陈川福博士工作，认为选题前沿且兼具工程意义：在 AltBOC 体制下开展的单频相位—码组合研究将显著扩充可获取的 TEC 观测体量，提升电离层反演的时空覆盖；**研究目标明确、方法扎实，整体工作达到较高学术水准，并对模型建构与业务化观测均具有促进作用**。（详见附件11，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/776ce452-3ba8-11f0-82c7-005056b96f20)）
+
+（8）Владимир Борисович Белаховский（**Vladimir B. Belakhovsky**）——**俄罗斯科学院**科拉科学中心极地地球物理研究所（PGI）**高级研究员**；数学物理博士。在其对外公开的官方评审意见中，他高度评价陈川福博士研究所采用的大样本、长时间尺度实证方案，**明确指出：相较 BPSK/QPSK，AltBOC 在斜向 TEC 估计中的噪声实现倍数级下降**；陈川福博士提出的“单频绝对 TEC”方法**对 GLONASS 未来频率规划与系统升级具有直接参考价值**。（详见附件12，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/fab77a3c-3718-11f0-9fa8-005056b96f20)）
+
+（9）Денис Александрович Когогин（**Denis A. Kogogin**）——**喀山联邦大学教授**；**数学物理博士**。在其对外公开的官方评审意见中，高度评价陈川福博士工作，强调“单频 AltBOC 相位—码组合”的**首创性**与有效性：在 ≥95% 的情形下，单频方法的垂直 TEC 反演与双频结果等效；在模型测试方面，论文对 NeQuickG 与 BDGIM 的业务化评估及其改进路径提出了可操作方案；在应用层面，证明低成本单频链路亦可支撑科研级 TEC 反演，**推动 GNSS 电离层监测的普适化**。（详见附件13，或可点击公开官网查看：[Link](https://dissovet.msu.ru/file/dissovet-docs/3a71964c-3ba8-11f0-82c7-005056b96f20)）
+
+（10）П.А. Форш（**莫斯科国立大学（MSU）物理学院副院长、教授**）与В.И. Захаров（**MSU物理系主任**、教授、数学物理博士）联名并加盖系章出具证明，指出**陈川福博士科研水平与工作质量已达到 MSU“副研究员”岗位要求**，正与教研室开展主动性前沿研究，具备持续产出高水平成果的潜力。（据其对外公开证明，详见附件3）
+
+（11）来自**莫斯科国立大学（MSU）物理系大气物理教研室的教授** V.I. **Zakhаров** 的正式官方推荐认为：陈川福博士已在**大气物理、电离层建模与 全球卫星导航GNSS 应用**方向形成系统性成果。目前其与 MSU 教研团队保持**主动性合作**（电离层监测、等离子体波动过程等），其科研水平**相当于 MSU 物理系“副研究员”岗位要求**。该推荐强调陈川福博士在电离层—GNSS交叉领域的**国际化背景与持续合作基础**，对其在华开展相关研究与成果转化的**潜在学术影响与带动作用**给予高度正面评价。（据其对外公开证明，详见附件14）
+
+（12）陈川福博士导师Artem M. Padokhin——**莫斯科国立大学（MSU）物理系大气物理副教授；俄罗斯科学院普希科夫地磁、电离层与无线电波传播研究所（IZMIRAN）高级研究员**。作为深耕基于 GNSS 的电离层遥感 15+ 年的一线学者，在其推荐信中对陈川福博士作出如下学术评价：①科研主动性强、善于在新体制与新方法上开拓创新，围绕 Galileo/BeiDou 的 AltBOC 编码完成了高精度电离层应用的实验性验证，方法严谨、证据充分；②系统掌握 GNSS 原理与电离层模型，具备将理论成果工程化落地的能力；③学习适应力与**国际合作素养突出**，能快速融入跨文化科研环境；**相关研究已发表于高水平国际期刊。总体评价：陈川福博士兼具原创性、工程转化能力与团队协作潜力，值得重点支持与培养**。（据其对外公开推荐信，详见附件15）

@@ -19,6 +19,18 @@ Addressing the multi-scale temporal and spatial variability of ionospheric struc
 
 To address accuracy bottlenecks in ionospheric monitoring and navigation applications using single-frequency receivers, **Chen and his Russian team were the first to propose and validate an innovative method for retrieving vertical TEC based on single-frequency Alternative Binary Offset Carrier (AltBOC) signals**. Leveraging the wideband spectral characteristics and strong multipath resistance of AltBOC signals, they **systematically analyzed its potential for precise TEC measurement, improving single-frequency navigation receiver accuracy in determining ionospheric electron density by an order of magnitude**. This achievement was **featured by the Russian science media outlet Scientific Russia**.
 
+<!-- Altmetric badge -->
+<script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
+<div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="170295296"></div>
+
+### About this Attention Score [link](https://mdpi.altmetric.com/details/170295296)
+
+- In the top 25% of all research outputs scored by Altmetric
+
+- High Attention Score compared to outputs of the same age (91st percentile)
+
+- High Attention Score compared to outputs of the same age and source (96th percentile)
+
 ## 3. **Proposing unified evaluation metrics and computational criteria for ionosphere–microwave interactions**:
 
 To address the long-standing challenge of lacking a standardized framework for assessing different ionospheric models, Chen and his Russian team proposed and established a **unified evaluation system covering nine major global ionospheric models**, constructing a system of model-independent metrics. This framework enables cross-domain comparisons and rapid assessments of the Klobuchar model, Galileo’s NeQuickG model, BeiDou’s BDGIM model, the International Reference Ionosphere (IRI) series, and the Global Empirical TEC (GEMTEC) model, all under a consistent coordinate and evaluation standard. **The outcome provides a practical and comparable standardized tool for GNSS systems worldwide to model and correct ionospheric errors.**

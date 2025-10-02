@@ -6,7 +6,7 @@ permalink: /publication/2023-05-15-klobuchar-nequickg-bdgim-glonass-iri-…  # �
 excerpt: "This study compares nine ionospheric models in both TEC and positioning domains, using 20 years of GNSS data across 13 stations, focusing on 2014–2020."
 date: 2023-05-15
 venue: "Sensors"
-slidesurl: "http://onephysicist.github.io/files/paper1.pdf"  # 若有对应的幻灯片网址可以填
+slidesurl: "http://onephysicist.github.io/files/paper1-sensors-23-04773-v3.pdf"  # 若有对应的幻灯片网址可以填
 paperurl: "https://www.mdpi.com/1424-8220/23/10/4773"  # 文章主页/PDF 链接
 citation: "Y. V. Yasyukevich, D. Zatolokin, A. Padokhin, N. Wang, B. Nava, Z. Li, Y. Yuan, A. Yasyukevich, **C. Chen**, A. Vesnin. (2023). “Klobuchar, NeQuickG, BDGIM, GLONASS, IRI-2016, IRI-2012, IRI-Plas, NeQuick2, and GEMTEC Ionospheric Models: A Comparison in Total Electron Content and Positioning Domains.” *Sensors*, 23(10):4773. DOI:10.3390/s23104773"
 ---

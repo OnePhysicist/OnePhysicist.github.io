@@ -3,7 +3,7 @@ title: "ОСОБЕННОСТИ ПРЕДСТАВЛЕНИЯ ГЛОБАЛЬНОГО
 collection: publications
 category: manuscripts
 permalink: /publication/2025-01-04-gec-klobuchar-bdgim-nequickg
-excerpt: "This paper analyzes global electron content (GEC) estimation using Klobuchar, BDGIM, and NeQuickG models, comparing them to CODG observational data."
+excerpt: "Эта статья анализирует оценку глобального электронного содержания (GEC) с использованием моделей Klobuchar, BDGIM и NeQuickG и сравнивает их с наблюдательными данными CODG."
 date: 2025-01-04
 venue: "ЖУРНАЛ РАДИОЭЛЕКТРОНИКИ"
 slidesurl: "http://onephysicist.github.io/files/paper3-RU-GEC.pdf"       # 若你有幻灯片可以填入

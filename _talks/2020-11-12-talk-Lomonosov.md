@@ -28,3 +28,5 @@ The aim of the present study was to test the BDGIM model using data from a singl
 
 本研究的目标是利用安装在莫斯科国立大学物理系的一台单一GNSS接收机的数据来测试BDGIM模型。我们将接收机获得的垂直TEC实验估计与Klobuchar模型和BDGIM模型的预测结果进行了比较。结果表明，在平静的地磁条件下，采用BDGIM模型在TEC估计上相比Klobuchar模型有近20%的改进。然而，在地磁扰动条件下，两种模型都可能严重低估或高估TEC，这表明若要在单频模式下实现高精度导航，还需要进一步改进这类经验模型。
 
+
+

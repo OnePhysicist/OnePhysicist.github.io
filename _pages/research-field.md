@@ -3,8 +3,8 @@ permalink: /research-field/
 title: "Research Field"
 author_profile: true
 redirect_from: 
-  - /md/
-  - /markdown.html
+  - /research-field/
+  - /research-field.html
 ---
 
 {% include toc %}

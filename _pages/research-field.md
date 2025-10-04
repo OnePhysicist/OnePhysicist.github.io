@@ -2,9 +2,6 @@
 permalink: /research-field/
 title: "Research Field"
 author_profile: true
-redirect_from: 
-  - /research-field/
-  - /research-field.md
 ---
 
 {% include toc %}

@@ -136,7 +136,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "PhysicistCCF"
+  username               : &PhysicistCCF
 facebook:
   username               :
   app_id                 :

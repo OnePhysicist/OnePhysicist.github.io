@@ -4,7 +4,7 @@ title: "Research Field"
 author_profile: true
 redirect_from: 
   - /research-field/
-  - /research-field.html
+  - /research-field.md
 ---
 
 {% include toc %}

@@ -1,44 +1,86 @@
-{% include base_path %}
-
 <section class="page__share">
   {% if site.data.ui-text[site.locale].share_on_label %}
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
 
-  <a href="https://bsky.app/intent/compose?text={{ base_path }}{{ page.url }}" class="btn btn--bluesky" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky"><i class="fab fa-bluesky" aria-hidden="true"></i><span> Bluesky</span></a>
+  <!-- 原有平台 -->
+  <a href="https://bsky.app/intent/compose?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}"
+     class="btn btn--bluesky" title="Share on Bluesky" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ base_path }}{{ page.url }}" class="btn btn--facebook" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | uri_escape }}"
+     class="btn btn--facebook" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | uri_escape }}&title={{ page.title | uri_escape }}"
+     class="btn btn--linkedin" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
 
-  <a href="https://x.com/intent/post?text={{ base_path }}{{ page.url }}" class="btn btn--x" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
-  
-  <!-- 新增：Weibo -->
+  <a href="https://x.com/intent/post?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}"
+     class="btn btn--x" title="Share on X" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <!-- 新增平台 -->
   <a href="https://service.weibo.com/share/share.php?title={{ page.title | uri_escape }}&url={{ page.url | absolute_url | uri_escape }}"
      class="btn btn--weibo" title="分享到微博" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-weibo" aria-hidden="true"></i><span> 微博</span>
   </a>
 
-  <!-- 新增：Telegram -->
   <a href="https://t.me/share/url?url={{ page.url | absolute_url | uri_escape }}&text={{ page.title | uri_escape }}"
      class="btn btn--telegram" title="Share on Telegram" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-telegram" aria-hidden="true"></i><span> Telegram</span>
   </a>
 
-  <!-- 新增：Reddit -->
   <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url | uri_escape }}&title={{ page.title | uri_escape }}"
      class="btn btn--reddit" title="Share on Reddit" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-reddit" aria-hidden="true"></i><span> Reddit</span>
   </a>
 
-  <!-- 新增：ResearchGate（注意：ResearchGate 无官方分享 URL, 常用直接链接到 paper 页面或 Email） -->
   <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ page.url | absolute_url | uri_escape }}"
      class="btn btn--email" title="Email link" rel="noopener noreferrer">
     <i class="fas fa-envelope" aria-hidden="true"></i><span> Email</span>
   </a>
 
-  <!-- 新增：WeChat（扫码） - JS 控制弹窗显示二维码 -->
+  <!-- 微信二维码 -->
   <button class="btn btn--wechat" id="share-wechat-btn" aria-label="Share on WeChat">
     <i class="fab fa-weixin" aria-hidden="true"></i><span> 微信</span>
   </button>
 </section>
+
+<!-- 微信二维码模态 -->
+<div id="wechat-qr-modal" class="qr-modal" style="display:none;">
+  <div class="qr-modal-content">
+    <button class="qr-close" id="qr-close-btn" aria-label="Close QR">✕</button>
+    <h4>扫码分享到微信</h4>
+    <img id="wechat-qr-img" alt="WeChat QR code for sharing">
+    <p>或复制链接并在微信中粘贴：<br><code id="share-url">{{ page.url | absolute_url }}</code></p>
+  </div>
+</div>
+
+<!-- 微信二维码 JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var btn = document.getElementById('share-wechat-btn');
+  var modal = document.getElementById('wechat-qr-modal');
+  var closeBtn = document.getElementById('qr-close-btn');
+  var qrImg = document.getElementById('wechat-qr-img');
+  var shareUrl = encodeURIComponent('{{ page.url | absolute_url }}');
+
+  if(btn){
+    btn.addEventListener('click', function(){
+      qrImg.src = 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + shareUrl;
+      modal.style.display = 'flex';
+    });
+  }
+  if(closeBtn){
+    closeBtn.addEventListener('click', function(){ modal.style.display = 'none'; });
+  }
+  window.addEventListener('click', function(e){
+    if(e.target === modal) modal.style.display = 'none';
+  });
+});
+</script>

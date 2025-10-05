@@ -1,11 +1,8 @@
-@media (prefers-color-scheme: dark) {
-  .btn--bluesky { border:1px solid #4da6f0; }
-  .btn--facebook { border:1px solid #5292f5; }
-  .btn--linkedin { border:1px solid #3399cc; }
-  .btn--x { border:1px solid #4da6f0; }
-  .btn--weibo { border:1px solid #ff4d5c; }
-  .btn--telegram { border:1px solid #33bfff; }
-  .btn--reddit { border:1px solid #ff7f4d; }
-  .btn--wechat { border:1px solid #33c75f; }
-  .btn--email { border:1px solid #666; }
+.page__share .btn { 
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2); 
+  transition: all 0.2s ease;
+}
+
+.page__share .btn:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }

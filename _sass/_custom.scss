@@ -1,104 +1,115 @@
-/* -----------------------
-   分享按钮基础样式
------------------------ */
-.page__share {
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-}
+/* =========================
+   强制覆盖：分享按钮（保证在深/浅主题都清晰）
+   复制此段到 _sass/_custom.scss 或 assets/css/custom.css 的末尾
+   ========================= */
 
+/* 提升权重，避免被主题样式覆盖 */
 .page__share .btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
+  --btn-bg: transparent;    /* 默认变量占位 */
+  --btn-border: rgba(0,0,0,0.12);
+  --btn-color: inherit;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  font-size: 0.95rem !important;
+  cursor: pointer !important;
+  transition: all 0.18s ease !important;
+  box-shadow: none !important;
 }
 
-/* 图标大小 */
+/* 每个平台背景 + 明显的边框（比背景更深/更浅以便识别） */
+.page__share .btn--bluesky {
+  background-color: #1da1f2 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(13,149,232,0.95) !important;
+}
+
+.page__share .btn--facebook {
+  background-color: #1877f2 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(20,93,191,0.95) !important;
+}
+
+.page__share .btn--linkedin {
+  background-color: #0077b5 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(0,88,131,0.95) !important;
+}
+
+.page__share .btn--x {
+  background-color: #1da1f2 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(13,149,232,0.95) !important;
+}
+
+.page__share .btn--weibo {
+  background-color: #e6162d !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(181,15,34,0.95) !important;
+}
+
+.page__share .btn--telegram {
+  background-color: #0088cc !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(0,102,153,0.95) !important;
+}
+
+.page__share .btn--reddit {
+  background-color: #ff4500 !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(204,55,0,0.95) !important;
+}
+
+.page__share .btn--wechat {
+  background-color: #09b83e !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(7,140,50,0.95) !important;
+}
+
+/* 邮件按钮使用浅底 + 深边框，在深色模式下自动调整 */
+.page__share .btn--email {
+  background-color: #f3f3f3 !important;
+  color: #222 !important;
+  border: 1.5px solid #cfcfcf !important;
+}
+
+/* 强制图标颜色（若 FontAwesome 被主题覆盖） */
 .page__share .btn i {
-  font-size: 1rem;
+  color: inherit !important;
+  opacity: 0.95 !important;
 }
 
-/* -----------------------
-   按钮品牌色和边框
------------------------ */
-.btn--bluesky { background:#1da1f2; color:#fff; border:1px solid #0d95e8; }
-.btn--facebook { background:#1877f2; color:#fff; border:1px solid #145dbf; }
-.btn--linkedin { background:#0077b5; color:#fff; border:1px solid #005983; }
-.btn--x { background:#1da1f2; color:#fff; border:1px solid #0d95e8; }
-.btn--weibo { background:#e6162d; color:#fff; border:1px solid #b50f22; }
-.btn--telegram { background:#0088cc; color:#fff; border:1px solid #006699; }
-.btn--reddit { background:#ff4500; color:#fff; border:1px solid #cc3700; }
-.btn--wechat { background:#09b83e; color:#fff; border:1px solid #078c32; }
-.btn--email { background:#f3f3f3; color:#333; border:1px solid #ccc; }
-
-/* -----------------------
-   悬停效果
------------------------ */
-.page__share .btn:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+/* 悬停/聚焦：微调 */
+.page__share .btn:hover,
+.page__share .btn:focus {
+  transform: translateY(-2px) !important;
+  filter: brightness(0.95) !important;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.18) !important;
+  outline: none !important;
 }
 
-/* -----------------------
-   深色模式边框调整
------------------------ */
+/* =========================
+   深色主题特殊处理（提高边框对比）
+   ========================= */
 @media (prefers-color-scheme: dark) {
-  .btn--bluesky { border:1px solid #4da6f0; }
-  .btn--facebook { border:1px solid #5292f5; }
-  .btn--linkedin { border:1px solid #3399cc; }
-  .btn--x { border:1px solid #4da6f0; }
-  .btn--weibo { border:1px solid #ff4d5c; }
-  .btn--telegram { border:1px solid #33bfff; }
-  .btn--reddit { border:1px solid #ff7f4d; }
-  .btn--wechat { border:1px solid #33c75f; }
-  .btn--email { border:1px solid #666; }
+  .page__share .btn--bluesky { border-color: rgba(77,166,240,0.95) !important; }
+  .page__share .btn--facebook { border-color: rgba(82,146,245,0.95) !important; }
+  .page__share .btn--linkedin { border-color: rgba(51,153,204,0.95) !important; }
+  .page__share .btn--weibo { border-color: rgba(255,77,92,0.95) !important; }
+  .page__share .btn--telegram { border-color: rgba(51,191,255,0.95) !important; }
+  .page__share .btn--reddit { border-color: rgba(255,127,77,0.95) !important; }
+  .page__share .btn--wechat { border-color: rgba(51,199,95,0.95) !important; }
+  .page__share .btn--email { border-color: #666 !important; background-color: #2b2b2b !important; color:#eee !important; }
 }
 
-/* -----------------------
-   微信二维码模态
------------------------ */
-.qr-modal {
-  position: fixed;
-  left:0; top:0;
-  width:100%; height:100%;
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-.qr-modal-content {
-  background:#fff;
-  padding:16px;
-  border-radius:8px;
-  text-align:center;
-  max-width:320px;
-  position: relative;
-}
-
-.qr-modal-content img {
-  width:200px;
-  height:200px;
-  object-fit: contain;
-  margin-bottom:8px;
-}
-
-.qr-close {
-  position:absolute;
-  right:12px;
-  top:12px;
-  border:none;
-  background:transparent;
-  font-size:18px;
-  cursor:pointer;
+/* =========================
+   如果主题把 .btn 设置为透明，这里强制显示边框（额外保障）
+   ========================= */
+.page__share .btn[style*="background:transparent"], 
+.page__share .btn[style*="background-color:transparent"] {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.08) inset !important;
+  background-clip: padding-box !important;
 }

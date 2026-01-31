@@ -33,7 +33,7 @@ author:
   email            : "chuanfu.chen@physist.msu.ru"
 
   # Academic websites
-  academia         : "https://istina.msu.ru/workers/395656299/all/"
+  academia         : "https://humus.academia.edu/ChuanfuChen"
   arxiv            : "ChuanfuChen"
   googlescholar    : "https://scholar.google.com/citations?user=Cu65WpcAAAAJ&hl=en&oi=sra"
   inspire-hep      : # URL
@@ -69,7 +69,7 @@ author:
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : # URL
+  telegram         : "ChuanfuChen"
   tumblr           : # Username
   twitter          : # Username for X / Twitter
   vine             : # Username
@@ -79,6 +79,7 @@ author:
   youtube          : # Username
   zhihu            : # Username
   wechat           : "OnePhysicist"
+  instina          : "https://istina.msu.ru/workers/395656299/all/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

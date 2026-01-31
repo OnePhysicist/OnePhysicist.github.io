@@ -29,18 +29,18 @@ author:
   bio              : "Atmospheric and climate scientist, Moscow State University. Research focuses on ionospheric modeling, GNSS signal propagation, and space weather effects. Experienced in GNSS/remote sensing applications and interdisciplinary collaborations."
   location         : "China & Russia"
   employer         : "Moscow State University"
-  uri              : "https://en.wikipedia.org/wiki/Moscow_State_University"
+  uri              : "https://istina.msu.ru/workers/395656299/all/"
   email            : "chuanfu.chen@physist.msu.ru"
 
   # Academic websites
   academia         : "https://humus.academia.edu/ChuanfuChen"
-  arxiv            : "ChuanfuChen"
+#  arxiv            : "ChuanfuChen"
   googlescholar    : "https://scholar.google.com/citations?user=Cu65WpcAAAAJ&hl=en&oi=sra"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-9896-5841"
-  semantic         : "https://www.semanticscholar.org"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Chuanfu+Chen+Moscow"
+#  semantic         : "https://www.semanticscholar.org/author/Chuanfu-Chen/2325107407"
+#  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Chuanfu+Chen+Moscow"
   researchgate     : "https://www.researchgate.net/profile/Chuanfu-Chen-3"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58292258000"
 
@@ -69,7 +69,7 @@ author:
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : "ChuanfuChen"
+  telegram         : "https://t.me/ChuanfuChen"
   tumblr           : # Username
   twitter          : # Username for X / Twitter
   vine             : # Username
@@ -78,8 +78,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  wechat           : "OnePhysicist"
-  instina          : "https://istina.msu.ru/workers/395656299/all/"
+#  wechat           : "OnePhysicist"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
